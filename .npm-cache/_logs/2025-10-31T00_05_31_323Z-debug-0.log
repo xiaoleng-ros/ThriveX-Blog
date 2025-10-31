@@ -1,0 +1,484 @@
+0 verbose cli D:\nodeJS\node.exe D:\nodeJS\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\nodeJS\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\86159\.npmrc
+5 silly config load:file:D:\nodeJS\node_global\etc\npmrc
+6 verbose title npm exec @modelcontextprotocol/server-github
+7 verbose argv "exec" "--yes" "--" "@modelcontextprotocol/server-github"
+8 verbose logfile logs-max:10 dir:D:\Dev\ThriveX-Blog\.npm-cache\_logs\2025-10-31T00_05_31_323Z-
+9 verbose logfile D:\Dev\ThriveX-Blog\.npm-cache\_logs\2025-10-31T00_05_31_323Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 http fetch GET 200 https://registry.npmmirror.com/npm 133ms
+13 http fetch GET 200 https://registry.npmmirror.com/@modelcontextprotocol%2fserver-github 114ms (cache miss)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest @modelcontextprotocol/server-github@2025.4.8
+18 silly packumentCache full:https://registry.npmmirror.com/@modelcontextprotocol%2fserver-github cache-miss
+19 http fetch GET 200 https://registry.npmmirror.com/@modelcontextprotocol%2fserver-github 83ms (cache miss)
+20 silly packumentCache full:https://registry.npmmirror.com/@modelcontextprotocol%2fserver-github set size:9759 disposed:false
+21 silly placeDep ROOT @modelcontextprotocol/server-github@2025.4.8 OK for:  want: 2025.4.8
+22 silly fetch manifest @modelcontextprotocol/sdk@1.0.1
+23 silly packumentCache full:https://registry.npmmirror.com/@modelcontextprotocol%2fsdk cache-miss
+24 silly fetch manifest @types/node@^22
+25 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode cache-miss
+26 silly fetch manifest @types/node-fetch@^2.6.12
+27 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode-fetch cache-miss
+28 silly fetch manifest node-fetch@^3.3.2
+29 silly packumentCache full:https://registry.npmmirror.com/node-fetch cache-miss
+30 silly fetch manifest universal-user-agent@^7.0.2
+31 silly packumentCache full:https://registry.npmmirror.com/universal-user-agent cache-miss
+32 silly fetch manifest zod@^3.22.4
+33 silly packumentCache full:https://registry.npmmirror.com/zod cache-miss
+34 silly fetch manifest zod-to-json-schema@^3.23.5
+35 silly packumentCache full:https://registry.npmmirror.com/zod-to-json-schema cache-miss
+36 http fetch GET 200 https://registry.npmmirror.com/@modelcontextprotocol%2fsdk 56ms (cache miss)
+37 silly packumentCache full:https://registry.npmmirror.com/@modelcontextprotocol%2fsdk set size:41337 disposed:false
+38 http fetch GET 200 https://registry.npmmirror.com/node-fetch 102ms (cache miss)
+39 silly packumentCache full:https://registry.npmmirror.com/node-fetch set size:63386 disposed:false
+40 http fetch GET 200 https://registry.npmmirror.com/universal-user-agent 117ms (cache miss)
+41 silly packumentCache full:https://registry.npmmirror.com/universal-user-agent set size:7422 disposed:false
+42 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode-fetch 131ms (cache miss)
+43 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode-fetch set size:21937 disposed:false
+44 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 178ms (cache miss)
+45 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode set size:1112462 disposed:false
+46 http fetch GET 200 https://registry.npmmirror.com/zod-to-json-schema 311ms (cache miss)
+47 silly packumentCache full:https://registry.npmmirror.com/zod-to-json-schema set size:67390 disposed:false
+48 http fetch GET 200 https://registry.npmmirror.com/zod 341ms (cache miss)
+49 silly packumentCache full:https://registry.npmmirror.com/zod set size:391160 disposed:false
+50 silly placeDep ROOT @modelcontextprotocol/sdk@1.0.1 OK for: @modelcontextprotocol/server-github@2025.4.8 want: 1.0.1
+51 silly placeDep ROOT @types/node@22.18.13 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^22
+52 silly placeDep ROOT @types/node-fetch@2.6.13 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^2.6.12
+53 silly placeDep ROOT node-fetch@3.3.2 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^3.3.2
+54 silly placeDep ROOT universal-user-agent@7.0.3 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^7.0.2
+55 silly placeDep ROOT zod@3.25.76 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^3.22.4
+56 silly placeDep ROOT zod-to-json-schema@3.24.6 OK for: @modelcontextprotocol/server-github@2025.4.8 want: ^3.23.5
+57 silly fetch manifest content-type@^1.0.5
+58 silly packumentCache full:https://registry.npmmirror.com/content-type cache-miss
+59 silly fetch manifest raw-body@^3.0.0
+60 silly packumentCache full:https://registry.npmmirror.com/raw-body cache-miss
+61 silly fetch manifest zod@^3.23.8
+62 silly packumentCache full:https://registry.npmmirror.com/zod cache-hit
+63 silly fetch manifest undici-types@~6.21.0
+64 silly packumentCache full:https://registry.npmmirror.com/undici-types cache-miss
+65 silly fetch manifest form-data@^4.0.4
+66 silly packumentCache full:https://registry.npmmirror.com/form-data cache-miss
+67 silly fetch manifest data-uri-to-buffer@^4.0.0
+68 silly packumentCache full:https://registry.npmmirror.com/data-uri-to-buffer cache-miss
+69 silly fetch manifest fetch-blob@^3.1.4
+70 silly packumentCache full:https://registry.npmmirror.com/fetch-blob cache-miss
+71 silly fetch manifest formdata-polyfill@^4.0.10
+72 silly packumentCache full:https://registry.npmmirror.com/formdata-polyfill cache-miss
+73 http fetch GET 200 https://registry.npmmirror.com/content-type 36ms (cache miss)
+74 silly packumentCache full:https://registry.npmmirror.com/content-type set size:5128 disposed:false
+75 http fetch GET 200 https://registry.npmmirror.com/raw-body 40ms (cache miss)
+76 silly packumentCache full:https://registry.npmmirror.com/raw-body set size:22600 disposed:false
+77 http fetch GET 200 https://registry.npmmirror.com/form-data 44ms (cache miss)
+78 silly packumentCache full:https://registry.npmmirror.com/form-data set size:24658 disposed:false
+79 http fetch GET 200 https://registry.npmmirror.com/undici-types 55ms (cache miss)
+80 silly packumentCache full:https://registry.npmmirror.com/undici-types set size:29159 disposed:false
+81 http fetch GET 200 https://registry.npmmirror.com/data-uri-to-buffer 85ms (cache miss)
+82 silly packumentCache full:https://registry.npmmirror.com/data-uri-to-buffer set size:9442 disposed:false
+83 http fetch GET 200 https://registry.npmmirror.com/formdata-polyfill 94ms (cache miss)
+84 silly packumentCache full:https://registry.npmmirror.com/formdata-polyfill set size:15182 disposed:false
+85 http fetch GET 200 https://registry.npmmirror.com/fetch-blob 96ms (cache miss)
+86 silly packumentCache full:https://registry.npmmirror.com/fetch-blob set size:13804 disposed:false
+87 silly placeDep ROOT content-type@1.0.5 OK for: @modelcontextprotocol/sdk@1.0.1 want: ^1.0.5
+88 silly placeDep ROOT raw-body@3.0.1 OK for: @modelcontextprotocol/sdk@1.0.1 want: ^3.0.0
+89 silly fetch manifest bytes@3.1.2
+90 silly packumentCache full:https://registry.npmmirror.com/bytes cache-miss
+91 silly fetch manifest http-errors@2.0.0
+92 silly packumentCache full:https://registry.npmmirror.com/http-errors cache-miss
+93 silly fetch manifest iconv-lite@0.7.0
+94 silly packumentCache full:https://registry.npmmirror.com/iconv-lite cache-miss
+95 silly fetch manifest unpipe@1.0.0
+96 silly packumentCache full:https://registry.npmmirror.com/unpipe cache-miss
+97 http fetch GET 200 https://registry.npmmirror.com/iconv-lite 19ms (cache miss)
+98 silly packumentCache full:https://registry.npmmirror.com/iconv-lite set size:18254 disposed:false
+99 http fetch GET 200 https://registry.npmmirror.com/unpipe 33ms (cache miss)
+100 silly packumentCache full:https://registry.npmmirror.com/unpipe set size:1492 disposed:false
+101 http fetch GET 200 https://registry.npmmirror.com/bytes 34ms (cache miss)
+102 silly packumentCache full:https://registry.npmmirror.com/bytes set size:9046 disposed:false
+103 http fetch GET 200 https://registry.npmmirror.com/http-errors 48ms (cache miss)
+104 silly packumentCache full:https://registry.npmmirror.com/http-errors set size:13280 disposed:false
+105 silly placeDep ROOT undici-types@6.21.0 OK for: @types/node@22.18.13 want: ~6.21.0
+106 silly placeDep ROOT form-data@4.0.4 OK for: @types/node-fetch@2.6.13 want: ^4.0.4
+107 silly fetch manifest asynckit@^0.4.0
+108 silly packumentCache full:https://registry.npmmirror.com/asynckit cache-miss
+109 silly fetch manifest combined-stream@^1.0.8
+110 silly packumentCache full:https://registry.npmmirror.com/combined-stream cache-miss
+111 silly fetch manifest es-set-tostringtag@^2.1.0
+112 silly packumentCache full:https://registry.npmmirror.com/es-set-tostringtag cache-miss
+113 silly fetch manifest hasown@^2.0.2
+114 silly packumentCache full:https://registry.npmmirror.com/hasown cache-miss
+115 silly fetch manifest mime-types@^2.1.12
+116 silly packumentCache full:https://registry.npmmirror.com/mime-types cache-miss
+117 http fetch GET 200 https://registry.npmmirror.com/hasown 35ms (cache miss)
+118 silly packumentCache full:https://registry.npmmirror.com/hasown set size:3832 disposed:false
+119 http fetch GET 200 https://registry.npmmirror.com/es-set-tostringtag 37ms (cache miss)
+120 silly packumentCache full:https://registry.npmmirror.com/es-set-tostringtag set size:6558 disposed:false
+121 http fetch GET 200 https://registry.npmmirror.com/combined-stream 43ms (cache miss)
+122 silly packumentCache full:https://registry.npmmirror.com/combined-stream set size:7154 disposed:false
+123 http fetch GET 200 https://registry.npmmirror.com/asynckit 45ms (cache miss)
+124 silly packumentCache full:https://registry.npmmirror.com/asynckit set size:4567 disposed:false
+125 http fetch GET 200 https://registry.npmmirror.com/mime-types 48ms (cache miss)
+126 silly packumentCache full:https://registry.npmmirror.com/mime-types set size:20910 disposed:false
+127 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.4 want: ^0.4.0
+128 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.4 want: ^1.0.8
+129 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.4 want: ^2.1.0
+130 silly placeDep ROOT hasown@2.0.2 OK for: form-data@4.0.4 want: ^2.0.2
+131 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.4 want: ^2.1.12
+132 silly fetch manifest delayed-stream@~1.0.0
+133 silly packumentCache full:https://registry.npmmirror.com/delayed-stream cache-miss
+134 silly fetch manifest es-errors@^1.3.0
+135 silly packumentCache full:https://registry.npmmirror.com/es-errors cache-miss
+136 silly fetch manifest get-intrinsic@^1.2.6
+137 silly packumentCache full:https://registry.npmmirror.com/get-intrinsic cache-miss
+138 silly fetch manifest has-tostringtag@^1.0.2
+139 silly packumentCache full:https://registry.npmmirror.com/has-tostringtag cache-miss
+140 silly fetch manifest function-bind@^1.1.2
+141 silly packumentCache full:https://registry.npmmirror.com/function-bind cache-miss
+142 silly fetch manifest mime-db@1.52.0
+143 silly packumentCache full:https://registry.npmmirror.com/mime-db cache-miss
+144 http fetch GET 200 https://registry.npmmirror.com/es-errors 18ms (cache miss)
+145 silly packumentCache full:https://registry.npmmirror.com/es-errors set size:4030 disposed:false
+146 http fetch GET 200 https://registry.npmmirror.com/get-intrinsic 33ms (cache miss)
+147 silly packumentCache full:https://registry.npmmirror.com/get-intrinsic set size:11575 disposed:false
+148 http fetch GET 200 https://registry.npmmirror.com/delayed-stream 41ms (cache miss)
+149 silly packumentCache full:https://registry.npmmirror.com/delayed-stream set size:4333 disposed:false
+150 http fetch GET 200 https://registry.npmmirror.com/function-bind 45ms (cache miss)
+151 silly packumentCache full:https://registry.npmmirror.com/function-bind set size:4376 disposed:false
+152 http fetch GET 200 https://registry.npmmirror.com/has-tostringtag 48ms (cache miss)
+153 silly packumentCache full:https://registry.npmmirror.com/has-tostringtag set size:3448 disposed:false
+154 http fetch GET 200 https://registry.npmmirror.com/mime-db 71ms (cache miss)
+155 silly packumentCache full:https://registry.npmmirror.com/mime-db set size:24206 disposed:false
+156 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+157 silly placeDep ROOT es-errors@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.3.0
+158 silly placeDep ROOT get-intrinsic@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.2.6
+159 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+160 silly fetch manifest call-bind-apply-helpers@^1.0.2
+161 silly packumentCache full:https://registry.npmmirror.com/call-bind-apply-helpers cache-miss
+162 silly fetch manifest es-define-property@^1.0.1
+163 silly packumentCache full:https://registry.npmmirror.com/es-define-property cache-miss
+164 silly fetch manifest es-object-atoms@^1.1.1
+165 silly packumentCache full:https://registry.npmmirror.com/es-object-atoms cache-miss
+166 silly fetch manifest get-proto@^1.0.1
+167 silly packumentCache full:https://registry.npmmirror.com/get-proto cache-miss
+168 silly fetch manifest gopd@^1.2.0
+169 silly packumentCache full:https://registry.npmmirror.com/gopd cache-miss
+170 silly fetch manifest has-symbols@^1.1.0
+171 silly packumentCache full:https://registry.npmmirror.com/has-symbols cache-miss
+172 silly fetch manifest math-intrinsics@^1.1.0
+173 silly packumentCache full:https://registry.npmmirror.com/math-intrinsics cache-miss
+174 silly fetch manifest has-symbols@^1.0.3
+175 silly packumentCache full:https://registry.npmmirror.com/has-symbols cache-miss
+176 http fetch GET 200 https://registry.npmmirror.com/get-proto 39ms (cache miss)
+177 silly packumentCache full:https://registry.npmmirror.com/get-proto set size:2799 disposed:false
+178 http fetch GET 200 https://registry.npmmirror.com/es-object-atoms 40ms (cache miss)
+179 silly packumentCache full:https://registry.npmmirror.com/es-object-atoms set size:3862 disposed:false
+180 http fetch GET 200 https://registry.npmmirror.com/gopd 40ms (cache miss)
+181 silly packumentCache full:https://registry.npmmirror.com/gopd set size:3962 disposed:false
+182 http fetch GET 200 https://registry.npmmirror.com/call-bind-apply-helpers 43ms (cache miss)
+183 silly packumentCache full:https://registry.npmmirror.com/call-bind-apply-helpers set size:3532 disposed:false
+184 http fetch GET 200 https://registry.npmmirror.com/math-intrinsics 43ms (cache miss)
+185 silly packumentCache full:https://registry.npmmirror.com/math-intrinsics set size:3012 disposed:false
+186 http fetch GET 200 https://registry.npmmirror.com/es-define-property 46ms (cache miss)
+187 silly packumentCache full:https://registry.npmmirror.com/es-define-property set size:2896 disposed:false
+188 http fetch GET 200 https://registry.npmmirror.com/has-symbols 46ms (cache miss)
+189 silly packumentCache full:https://registry.npmmirror.com/has-symbols set size:5325 disposed:false
+190 http fetch GET 200 https://registry.npmmirror.com/has-symbols 53ms (cache miss)
+191 silly packumentCache full:https://registry.npmmirror.com/has-symbols set size:5325 disposed:false
+192 silly packumentCache full:https://registry.npmmirror.com/has-symbols dispose
+193 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: get-intrinsic@1.3.0 want: ^1.0.2
+194 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+195 silly placeDep ROOT es-object-atoms@1.1.1 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+196 silly placeDep ROOT function-bind@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.2
+197 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+198 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+199 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+200 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+201 silly fetch manifest dunder-proto@^1.0.1
+202 silly packumentCache full:https://registry.npmmirror.com/dunder-proto cache-miss
+203 http fetch GET 200 https://registry.npmmirror.com/dunder-proto 12ms (cache miss)
+204 silly packumentCache full:https://registry.npmmirror.com/dunder-proto set size:2798 disposed:false
+205 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+206 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+207 silly placeDep ROOT data-uri-to-buffer@4.0.1 OK for: node-fetch@3.3.2 want: ^4.0.0
+208 silly placeDep ROOT fetch-blob@3.2.0 OK for: node-fetch@3.3.2 want: ^3.1.4
+209 silly placeDep ROOT formdata-polyfill@4.0.10 OK for: node-fetch@3.3.2 want: ^4.0.10
+210 silly fetch manifest node-domexception@^1.0.0
+211 silly packumentCache full:https://registry.npmmirror.com/node-domexception cache-miss
+212 silly fetch manifest web-streams-polyfill@^3.0.3
+213 silly packumentCache full:https://registry.npmmirror.com/web-streams-polyfill cache-miss
+214 http fetch GET 200 https://registry.npmmirror.com/node-domexception 68ms (cache miss)
+215 silly packumentCache full:https://registry.npmmirror.com/node-domexception set size:4535 disposed:false
+216 http fetch GET 200 https://registry.npmmirror.com/web-streams-polyfill 141ms (cache miss)
+217 silly packumentCache full:https://registry.npmmirror.com/web-streams-polyfill set size:23360 disposed:false
+218 silly placeDep ROOT node-domexception@1.0.0 OK for: fetch-blob@3.2.0 want: ^1.0.0
+219 silly placeDep ROOT web-streams-polyfill@3.3.3 OK for: fetch-blob@3.2.0 want: ^3.0.3
+220 silly placeDep ROOT bytes@3.1.2 OK for: raw-body@3.0.1 want: 3.1.2
+221 silly placeDep ROOT http-errors@2.0.0 OK for: raw-body@3.0.1 want: 2.0.0
+222 silly placeDep ROOT iconv-lite@0.7.0 OK for: raw-body@3.0.1 want: 0.7.0
+223 silly placeDep ROOT unpipe@1.0.0 OK for: raw-body@3.0.1 want: 1.0.0
+224 silly fetch manifest depd@2.0.0
+225 silly packumentCache full:https://registry.npmmirror.com/depd cache-miss
+226 silly fetch manifest inherits@2.0.4
+227 silly packumentCache full:https://registry.npmmirror.com/inherits cache-miss
+228 silly fetch manifest setprototypeof@1.2.0
+229 silly packumentCache full:https://registry.npmmirror.com/setprototypeof cache-miss
+230 silly fetch manifest statuses@2.0.1
+231 silly packumentCache full:https://registry.npmmirror.com/statuses cache-miss
+232 silly fetch manifest toidentifier@1.0.1
+233 silly packumentCache full:https://registry.npmmirror.com/toidentifier cache-miss
+234 silly fetch manifest safer-buffer@>= 2.1.2 < 3.0.0
+235 silly packumentCache full:https://registry.npmmirror.com/safer-buffer cache-miss
+236 http fetch GET 200 https://registry.npmmirror.com/safer-buffer 16ms (cache miss)
+237 silly packumentCache full:https://registry.npmmirror.com/safer-buffer set size:6036 disposed:false
+238 http fetch GET 200 https://registry.npmmirror.com/inherits 33ms (cache miss)
+239 silly packumentCache full:https://registry.npmmirror.com/inherits set size:3419 disposed:false
+240 http fetch GET 200 https://registry.npmmirror.com/setprototypeof 34ms (cache miss)
+241 silly packumentCache full:https://registry.npmmirror.com/setprototypeof set size:3278 disposed:false
+242 http fetch GET 200 https://registry.npmmirror.com/depd 35ms (cache miss)
+243 silly packumentCache full:https://registry.npmmirror.com/depd set size:8763 disposed:false
+244 http fetch GET 200 https://registry.npmmirror.com/toidentifier 36ms (cache miss)
+245 silly packumentCache full:https://registry.npmmirror.com/toidentifier set size:3571 disposed:false
+246 http fetch GET 200 https://registry.npmmirror.com/statuses 67ms (cache miss)
+247 silly packumentCache full:https://registry.npmmirror.com/statuses set size:7676 disposed:false
+248 silly placeDep ROOT depd@2.0.0 OK for: http-errors@2.0.0 want: 2.0.0
+249 silly placeDep ROOT inherits@2.0.4 OK for: http-errors@2.0.0 want: 2.0.4
+250 silly placeDep ROOT setprototypeof@1.2.0 OK for: http-errors@2.0.0 want: 1.2.0
+251 silly placeDep ROOT statuses@2.0.1 OK for: http-errors@2.0.0 want: 2.0.1
+252 silly placeDep ROOT toidentifier@1.0.1 OK for: http-errors@2.0.0 want: 1.0.1
+253 silly placeDep ROOT safer-buffer@2.1.2 OK for: iconv-lite@0.7.0 want: >= 2.1.2 < 3.0.0
+254 silly reify moves {}
+255 silly audit bulk request {
+255 silly audit   '@modelcontextprotocol/server-github': [ '2025.4.8' ],
+255 silly audit   '@modelcontextprotocol/sdk': [ '1.0.1' ],
+255 silly audit   '@types/node': [ '22.18.13' ],
+255 silly audit   '@types/node-fetch': [ '2.6.13' ],
+255 silly audit   'node-fetch': [ '3.3.2' ],
+255 silly audit   'universal-user-agent': [ '7.0.3' ],
+255 silly audit   zod: [ '3.25.76' ],
+255 silly audit   'zod-to-json-schema': [ '3.24.6' ],
+255 silly audit   'content-type': [ '1.0.5' ],
+255 silly audit   'raw-body': [ '3.0.1' ],
+255 silly audit   'undici-types': [ '6.21.0' ],
+255 silly audit   'form-data': [ '4.0.4' ],
+255 silly audit   asynckit: [ '0.4.0' ],
+255 silly audit   'combined-stream': [ '1.0.8' ],
+255 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+255 silly audit   hasown: [ '2.0.2' ],
+255 silly audit   'mime-types': [ '2.1.35' ],
+255 silly audit   'delayed-stream': [ '1.0.0' ],
+255 silly audit   'es-errors': [ '1.3.0' ],
+255 silly audit   'get-intrinsic': [ '1.3.0' ],
+255 silly audit   'has-tostringtag': [ '1.0.2' ],
+255 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+255 silly audit   'es-define-property': [ '1.0.1' ],
+255 silly audit   'es-object-atoms': [ '1.1.1' ],
+255 silly audit   'function-bind': [ '1.1.2' ],
+255 silly audit   'get-proto': [ '1.0.1' ],
+255 silly audit   gopd: [ '1.2.0' ],
+255 silly audit   'has-symbols': [ '1.1.0' ],
+255 silly audit   'math-intrinsics': [ '1.1.0' ],
+255 silly audit   'dunder-proto': [ '1.0.1' ],
+255 silly audit   'mime-db': [ '1.52.0' ],
+255 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+255 silly audit   'fetch-blob': [ '3.2.0' ],
+255 silly audit   'formdata-polyfill': [ '4.0.10' ],
+255 silly audit   'node-domexception': [ '1.0.0' ],
+255 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+255 silly audit   bytes: [ '3.1.2' ],
+255 silly audit   'http-errors': [ '2.0.0' ],
+255 silly audit   'iconv-lite': [ '0.7.0' ],
+255 silly audit   unpipe: [ '1.0.0' ],
+255 silly audit   depd: [ '2.0.0' ],
+255 silly audit   inherits: [ '2.0.4' ],
+255 silly audit   setprototypeof: [ '1.2.0' ],
+255 silly audit   statuses: [ '2.0.1' ],
+255 silly audit   toidentifier: [ '1.0.1' ],
+255 silly audit   'safer-buffer': [ '2.1.2' ]
+255 silly audit }
+256 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 16ms
+257 silly audit bulk request failed [object Object]
+258 http cache safer-buffer@https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+259 http cache setprototypeof@https://registry.npmmirror.com/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+260 http cache toidentifier@https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+261 http cache statuses@https://registry.npmmirror.com/statuses/-/statuses-2.0.1.tgz 0ms (cache hit)
+262 http cache inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+263 http cache depd@https://registry.npmmirror.com/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+264 http cache iconv-lite@https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.7.0.tgz 0ms (cache hit)
+265 http cache unpipe@https://registry.npmmirror.com/unpipe/-/unpipe-1.0.0.tgz 0ms (cache hit)
+266 http cache bytes@https://registry.npmmirror.com/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+267 http cache web-streams-polyfill@https://registry.npmmirror.com/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+268 http cache node-domexception@https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+269 http cache mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+270 http cache formdata-polyfill@https://registry.npmmirror.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 0ms (cache hit)
+271 http cache fetch-blob@https://registry.npmmirror.com/fetch-blob/-/fetch-blob-3.2.0.tgz 0ms (cache hit)
+272 http cache http-errors@https://registry.npmmirror.com/http-errors/-/http-errors-2.0.0.tgz 0ms (cache hit)
+273 http cache data-uri-to-buffer@https://registry.npmmirror.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 0ms (cache hit)
+274 http cache math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+275 http cache dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+276 http cache gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+277 http cache get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+278 http cache has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+279 http cache function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+280 http cache call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+281 http cache es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+282 http cache es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+283 http cache get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+284 http cache es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+285 http cache delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+286 http cache mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+287 http cache has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+288 http cache hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+289 http cache es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+290 http cache combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+291 http cache asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+292 http cache raw-body@https://registry.npmmirror.com/raw-body/-/raw-body-3.0.1.tgz 0ms (cache hit)
+293 http cache undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.21.0.tgz 0ms (cache hit)
+294 http cache form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.4.tgz 0ms (cache hit)
+295 http cache content-type@https://registry.npmmirror.com/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+296 http cache zod-to-json-schema@https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.24.6.tgz 0ms (cache hit)
+297 http cache universal-user-agent@https://registry.npmmirror.com/universal-user-agent/-/universal-user-agent-7.0.3.tgz 0ms (cache hit)
+298 http cache zod@https://registry.npmmirror.com/zod/-/zod-3.25.76.tgz 0ms (cache hit)
+299 http cache @types/node-fetch@https://registry.npmmirror.com/@types/node-fetch/-/node-fetch-2.6.13.tgz 0ms (cache hit)
+300 http cache @types/node@https://registry.npmmirror.com/@types/node/-/node-22.18.13.tgz 0ms (cache hit)
+301 http cache node-fetch@https://registry.npmmirror.com/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+302 http cache @modelcontextprotocol/server-github@https://registry.npmmirror.com/@modelcontextprotocol/server-github/-/server-github-2025.4.8.tgz 0ms (cache hit)
+303 silly tarball no local data for safer-buffer@https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+304 silly tarball no local data for setprototypeof@https://registry.npmmirror.com/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+305 silly tarball no local data for toidentifier@https://registry.npmmirror.com/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+306 silly tarball no local data for statuses@https://registry.npmmirror.com/statuses/-/statuses-2.0.1.tgz. Extracting by manifest.
+307 silly tarball no local data for inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+308 silly tarball no local data for depd@https://registry.npmmirror.com/depd/-/depd-2.0.0.tgz. Extracting by manifest.
+309 silly tarball no local data for iconv-lite@https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.7.0.tgz. Extracting by manifest.
+310 silly tarball no local data for unpipe@https://registry.npmmirror.com/unpipe/-/unpipe-1.0.0.tgz. Extracting by manifest.
+311 silly tarball no local data for bytes@https://registry.npmmirror.com/bytes/-/bytes-3.1.2.tgz. Extracting by manifest.
+312 http cache @modelcontextprotocol/sdk@https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.0.1.tgz 0ms (cache hit)
+313 silly tarball no local data for web-streams-polyfill@https://registry.npmmirror.com/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz. Extracting by manifest.
+314 silly tarball no local data for node-domexception@https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz. Extracting by manifest.
+315 silly tarball no local data for mime-db@https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+316 silly tarball no local data for formdata-polyfill@https://registry.npmmirror.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz. Extracting by manifest.
+317 silly tarball no local data for fetch-blob@https://registry.npmmirror.com/fetch-blob/-/fetch-blob-3.2.0.tgz. Extracting by manifest.
+318 silly tarball no local data for http-errors@https://registry.npmmirror.com/http-errors/-/http-errors-2.0.0.tgz. Extracting by manifest.
+319 silly tarball no local data for data-uri-to-buffer@https://registry.npmmirror.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz. Extracting by manifest.
+320 silly tarball no local data for math-intrinsics@https://registry.npmmirror.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+321 silly tarball no local data for dunder-proto@https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+322 silly tarball no local data for gopd@https://registry.npmmirror.com/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+323 silly tarball no local data for get-proto@https://registry.npmmirror.com/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+324 silly tarball no local data for has-symbols@https://registry.npmmirror.com/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+325 silly tarball no local data for function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+326 silly tarball no local data for call-bind-apply-helpers@https://registry.npmmirror.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+327 silly tarball no local data for es-define-property@https://registry.npmmirror.com/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+328 silly tarball no local data for es-object-atoms@https://registry.npmmirror.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+329 silly tarball no local data for get-intrinsic@https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+330 silly tarball no local data for es-errors@https://registry.npmmirror.com/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+331 silly tarball no local data for delayed-stream@https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+332 silly tarball no local data for mime-types@https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+333 silly tarball no local data for has-tostringtag@https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+334 silly tarball no local data for hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+335 silly tarball no local data for es-set-tostringtag@https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+336 silly tarball no local data for combined-stream@https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+337 silly tarball no local data for asynckit@https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+338 silly tarball no local data for raw-body@https://registry.npmmirror.com/raw-body/-/raw-body-3.0.1.tgz. Extracting by manifest.
+339 silly tarball no local data for undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+340 silly tarball no local data for form-data@https://registry.npmmirror.com/form-data/-/form-data-4.0.4.tgz. Extracting by manifest.
+341 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 23ms
+342 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+342 verbose audit error     at D:\nodeJS\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+342 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+342 verbose audit error     at async [getReport] (D:\nodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+342 verbose audit error     at async AuditReport.run (D:\nodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+342 verbose audit error   headers: [Object: null prototype] {
+342 verbose audit error     server: [ 'Tengine' ],
+342 verbose audit error     date: [ 'Fri, 31 Oct 2025 00:05:33 GMT' ],
+342 verbose audit error     'content-type': [ 'application/json' ],
+342 verbose audit error     'transfer-encoding': [ 'chunked' ],
+342 verbose audit error     connection: [ 'keep-alive' ],
+342 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+342 verbose audit error     via: [ 'kunlun3.cn6339[,404666]' ],
+342 verbose audit error     'timing-allow-origin': [ '*' ],
+342 verbose audit error     eagleid: [ '76700a1717618691331695704e' ],
+342 verbose audit error     'x-fetch-attempts': [ '1' ]
+342 verbose audit error   },
+342 verbose audit error   statusCode: 404,
+342 verbose audit error   code: 'E404',
+342 verbose audit error   method: 'POST',
+342 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+342 verbose audit error   body: {
+342 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+342 verbose audit error   },
+342 verbose audit error   pkgid: undefined
+342 verbose audit error }
+343 silly audit error [object Object]
+344 silly audit report null
+345 silly tarball no local data for content-type@https://registry.npmmirror.com/content-type/-/content-type-1.0.5.tgz. Extracting by manifest.
+346 silly tarball no local data for zod-to-json-schema@https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.24.6.tgz. Extracting by manifest.
+347 silly tarball no local data for universal-user-agent@https://registry.npmmirror.com/universal-user-agent/-/universal-user-agent-7.0.3.tgz. Extracting by manifest.
+348 silly tarball no local data for zod@https://registry.npmmirror.com/zod/-/zod-3.25.76.tgz. Extracting by manifest.
+349 silly tarball no local data for @types/node-fetch@https://registry.npmmirror.com/@types/node-fetch/-/node-fetch-2.6.13.tgz. Extracting by manifest.
+350 silly tarball no local data for @types/node@https://registry.npmmirror.com/@types/node/-/node-22.18.13.tgz. Extracting by manifest.
+351 silly tarball no local data for node-fetch@https://registry.npmmirror.com/node-fetch/-/node-fetch-3.3.2.tgz. Extracting by manifest.
+352 silly tarball no local data for @modelcontextprotocol/server-github@https://registry.npmmirror.com/@modelcontextprotocol/server-github/-/server-github-2025.4.8.tgz. Extracting by manifest.
+353 silly tarball no local data for @modelcontextprotocol/sdk@https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.0.1.tgz. Extracting by manifest.
+354 http fetch GET 200 https://cdn.npmmirror.com/packages/toidentifier/1.0.1/toidentifier-1.0.1.tgz 218ms (cache miss)
+355 http fetch GET 200 https://cdn.npmmirror.com/packages/unpipe/1.0.0/unpipe-1.0.0.tgz 219ms (cache miss)
+356 http fetch GET 200 https://cdn.npmmirror.com/packages/inherits/2.0.4/inherits-2.0.4.tgz 234ms (cache miss)
+357 http fetch GET 200 https://cdn.npmmirror.com/packages/setprototypeof/1.2.0/setprototypeof-1.2.0.tgz 241ms (cache miss)
+358 http fetch GET 200 https://cdn.npmmirror.com/packages/statuses/2.0.1/statuses-2.0.1.tgz 253ms (cache miss)
+359 http fetch GET 200 https://cdn.npmmirror.com/packages/depd/2.0.0/depd-2.0.0.tgz 256ms (cache miss)
+360 http fetch GET 200 https://cdn.npmmirror.com/packages/http-errors/2.0.0/http-errors-2.0.0.tgz 286ms (cache miss)
+361 http fetch GET 200 https://cdn.npmmirror.com/packages/es-define-property/1.0.1/es-define-property-1.0.1.tgz 286ms (cache miss)
+362 http fetch GET 200 https://cdn.npmmirror.com/packages/call-bind-apply-helpers/1.0.2/call-bind-apply-helpers-1.0.2.tgz 289ms (cache miss)
+363 http fetch GET 200 https://cdn.npmmirror.com/packages/gopd/1.2.0/gopd-1.2.0.tgz 291ms (cache miss)
+364 http fetch GET 200 https://cdn.npmmirror.com/packages/safer-buffer/2.1.2/safer-buffer-2.1.2.tgz 299ms (cache miss)
+365 http fetch GET 200 https://cdn.npmmirror.com/packages/data-uri-to-buffer/4.0.1/data-uri-to-buffer-4.0.1.tgz 327ms (cache miss)
+366 http fetch GET 200 https://cdn.npmmirror.com/packages/math-intrinsics/1.1.0/math-intrinsics-1.1.0.tgz 329ms (cache miss)
+367 http fetch GET 200 https://cdn.npmmirror.com/packages/mime-types/2.1.35/mime-types-2.1.35.tgz 328ms (cache miss)
+368 http fetch GET 200 https://cdn.npmmirror.com/packages/fetch-blob/3.2.0/fetch-blob-3.2.0.tgz 340ms (cache miss)
+369 http fetch GET 200 https://cdn.npmmirror.com/packages/formdata-polyfill/4.0.10/formdata-polyfill-4.0.10.tgz 357ms (cache miss)
+370 http fetch GET 200 https://cdn.npmmirror.com/packages/bytes/3.1.2/bytes-3.1.2.tgz 366ms (cache miss)
+371 http fetch GET 200 https://cdn.npmmirror.com/packages/delayed-stream/1.0.0/delayed-stream-1.0.0.tgz 362ms (cache miss)
+372 http fetch GET 200 https://cdn.npmmirror.com/packages/has-tostringtag/1.0.2/has-tostringtag-1.0.2.tgz 367ms (cache miss)
+373 http fetch GET 200 https://cdn.npmmirror.com/packages/es-set-tostringtag/2.1.0/es-set-tostringtag-2.1.0.tgz 371ms (cache miss)
+374 http fetch GET 200 https://cdn.npmmirror.com/packages/get-proto/1.0.1/get-proto-1.0.1.tgz 380ms (cache miss)
+375 http fetch GET 200 https://cdn.npmmirror.com/packages/combined-stream/1.0.8/combined-stream-1.0.8.tgz 393ms (cache miss)
+376 http fetch GET 200 https://cdn.npmmirror.com/packages/has-symbols/1.1.0/has-symbols-1.1.0.tgz 398ms (cache miss)
+377 http fetch GET 200 https://cdn.npmmirror.com/packages/raw-body/3.0.1/raw-body-3.0.1.tgz 396ms (cache miss)
+378 http fetch GET 200 https://cdn.npmmirror.com/packages/asynckit/0.4.0/asynckit-0.4.0.tgz 401ms (cache miss)
+379 http fetch GET 200 https://cdn.npmmirror.com/packages/es-object-atoms/1.1.1/es-object-atoms-1.1.1.tgz 403ms (cache miss)
+380 http fetch GET 200 https://cdn.npmmirror.com/packages/mime-db/1.52.0/mime-db-1.52.0.tgz 411ms (cache miss)
+381 http fetch GET 200 https://cdn.npmmirror.com/packages/content-type/1.0.5/content-type-1.0.5.tgz 406ms (cache miss)
+382 http fetch GET 200 https://cdn.npmmirror.com/packages/get-intrinsic/1.3.0/get-intrinsic-1.3.0.tgz 419ms (cache miss)
+383 http fetch GET 200 https://cdn.npmmirror.com/packages/es-errors/1.3.0/es-errors-1.3.0.tgz 420ms (cache miss)
+384 http fetch GET 200 https://cdn.npmmirror.com/packages/hasown/2.0.2/hasown-2.0.2.tgz 441ms (cache miss)
+385 http fetch GET 200 https://cdn.npmmirror.com/packages/function-bind/1.1.2/function-bind-1.1.2.tgz 448ms (cache miss)
+386 http fetch GET 200 https://cdn.npmmirror.com/packages/universal-user-agent/7.0.3/universal-user-agent-7.0.3.tgz 458ms (cache miss)
+387 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/node-fetch/2.6.13/node-fetch-2.6.13.tgz 460ms (cache miss)
+388 http fetch GET 200 https://cdn.npmmirror.com/packages/dunder-proto/1.0.1/dunder-proto-1.0.1.tgz 471ms (cache miss)
+389 http fetch GET 200 https://cdn.npmmirror.com/packages/%40modelcontextprotocol/server-github/2025.4.8/server-github-2025.4.8.tgz 495ms (cache miss)
+390 http fetch GET 200 https://cdn.npmmirror.com/packages/iconv-lite/0.7.0/iconv-lite-0.7.0.tgz 517ms (cache miss)
+391 http fetch GET 200 https://cdn.npmmirror.com/packages/node-domexception/1.0.0/node-domexception-1.0.0.tgz 532ms (cache miss)
+392 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+393 http fetch GET 200 https://cdn.npmmirror.com/packages/undici-types/6.21.0/undici-types-6.21.0.tgz 539ms (cache miss)
+394 http fetch GET 200 https://cdn.npmmirror.com/packages/form-data/4.0.4/form-data-4.0.4.tgz 547ms (cache miss)
+395 http fetch GET 200 https://cdn.npmmirror.com/packages/node-fetch/3.3.2/node-fetch-3.3.2.tgz 604ms (cache miss)
+396 http fetch GET 200 https://cdn.npmmirror.com/packages/%40modelcontextprotocol/sdk/1.0.1/sdk-1.0.1.tgz 638ms (cache miss)
+397 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/node/22.18.13/node-22.18.13.tgz 669ms (cache miss)
+398 http fetch GET 200 https://cdn.npmmirror.com/packages/zod-to-json-schema/3.24.6/zod-to-json-schema-3.24.6.tgz 738ms (cache miss)
+399 http fetch GET 200 https://cdn.npmmirror.com/packages/web-streams-polyfill/3.3.3/web-streams-polyfill-3.3.3.tgz 773ms (cache miss)
+400 http fetch GET 200 https://cdn.npmmirror.com/packages/zod/3.25.76/zod-3.25.76.tgz 1118ms (cache miss)
+401 verbose cwd C:\Users\86159
+402 verbose os Windows_NT 10.0.26100
+403 verbose node v22.19.0
+404 verbose npm  v10.9.3
+405 notice
+405 notice New major version of npm available! 10.9.3 -> 11.6.2
+405 notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+405 notice To update run: npm install -g npm@11.6.2
+405 notice  { force: true, [Symbol(proc-log.meta)]: true }
+406 verbose exit 0
+407 info ok
